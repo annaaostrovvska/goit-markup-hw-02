@@ -1,0 +1,30 @@
+body {
+    font-family:'Roboto', sans-serif;
+}
+
+
+:root{
+    --title-color: #212121;
+    --link-hover: #2196F3;
+    --p-color: #757575;
+    --address-tit-color: #FFFFFF;
+    --logo-color: #2196F3;
+    
+}
+.link-nav {
+    color:var(--title-color)
+}
+.link-nav:hover,:focus{
+    color: var(--link-hover);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.title-k{
+    color: var(--title-color);
+}
